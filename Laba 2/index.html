@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colorful square</title>
+        <style>
+        h1 {
+            font-family: 'Candara'; /* шрифт заголовка */
+            font-size: 35px;
+            color: #a131d1;
+            text-align: center;
+        }
+        body {
+            font-family: 'Candara'; /* шрифт букв у бегунков */
+            text-align: center;
+        }
+        #colorBox { /* стиль квадратика */
+            position: fixed;
+            left: calc(50% - 180px);
+            width: 360px;
+            height: 360px;
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+            border: 1px solid;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Colorful square</h1>
+        <div id="colorBox"> <!-- область с квадратиком -->
+        </div>
+        <div style = "position: fixed; left: calc(50% - 169px); top: calc(50% - 10px); width: 360px" > <!-- область с бегунками -->
+            <b style = "color: red">R</b> <input type = "range" min = "0" max = "255" value = "255" id = "redSlider" style = "width: 340px">
+            <b style = "color: green">G</b> <input type = "range" min = "0" max = "255" value = "255" id = "greenSlider" style = "width: 340px">
+            <b style = "color: blue">B</b> <input type = "range" min = "0" max = "255" value = "255" id = "blueSlider" style = "width: 340px">
+        </div>
+        <div style = "position: fixed; left: calc(50% - 169px); top: 550px; width: 360px"> <!-- область с кнопками -->
+            <button id="button1" style = "width: 178px; font-family:'Candara'; font-size:18px">Reset</button>
+            <button id="button2" style = "width: 178px; font-family:'Candara'; font-size:18px">Random</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
