@@ -1,4 +1,4 @@
-// установка цвета при помощи бегунков
+// установка цвета при помощи ползунков
 
 const redSlider = document.getElementById('redSlider');
 const greenSlider = document.getElementById('greenSlider');
