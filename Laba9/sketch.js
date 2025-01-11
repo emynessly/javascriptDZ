@@ -20,7 +20,7 @@ let range = 100;
 let circlesAppear = false;
 let lineAppear = false;
 
-let songsList = ["Introduction To The Snow", "Isle Unto Thyself", "Black Rainbows", "White Ball", "Murders", "宇宙ステーションのレベル7", "The Mind Electric", "Labyrinth", "Time Machine", "Stranded Lullaby", "Dream Sweet In Sea Major"];
+let songsList = ["Introduction To The Snow", "Isle Unto Thyself", "Black Rainbows", "White Ball", "Murders", "宇宙ステーションのレベル7", "The Mind Electric", "Labyrinth"];
 let currentSongIndex = 0;
 
 const updateSpeed = () => {
